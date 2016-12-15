@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+
+    <TextView
+        android:text="@string/FInicioBebida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="24sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+        <CheckBox
+            android:text="@string/cola"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.64"
+            android:id="@+id/checkBox1" />
+
+        <EditText
+            android:gravity="end"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText5"
+            android:hint="@string/cant"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox
+            android:text="@string/limon"
+            android:layout_width="226dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox4"
+            android:layout_weight="3.64" />
+
+        <EditText
+            android:gravity="end"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText7"
+            android:hint="@string/cant"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox
+            android:text="@string/naranja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox5"
+            android:layout_weight="3.64" />
+
+        <EditText
+            android:gravity="end"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText10"
+            android:hint="@string/cant"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox
+            android:text="@string/nestea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox6"
+            android:layout_weight="3.64" />
+
+        <EditText
+            android:layout_width="160dp"
+            android:gravity="end"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText11"
+            android:hint="@string/cant"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox
+            android:text="@string/cerveza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox7"
+            android:layout_weight="3.64" />
+
+        <EditText
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:gravity="end"
+            android:id="@+id/editText8"
+            android:hint="@string/cant"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <CheckBox
+            android:text="@string/agua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/checkBox9"
+            android:layout_weight="3.31" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText6"
+            android:hint="@string/cant"
+            android:layout_width="160dp"
+            android:gravity="end" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:text="@string/exit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/button2"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_weight="0.36"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+        <Button
+            android:text="@string/siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:id="@+id/button3"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_weight="0.36"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored" />
+
+    </LinearLayout>
+
+</LinearLayout>

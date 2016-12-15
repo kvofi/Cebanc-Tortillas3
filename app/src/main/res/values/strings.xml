@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Cebanc-Tortillas</string>
+    <string name="siguiente">SIGUIENTE</string>
+    <string name="exit">SALIR</string>
+    <string name="nombre">Nombre</string>
+    <string name="direccion">Direccion</string>
+    <string name="telefono">Telefono</string>
+    <string name="FInicioDatos">Introduzca sus datos</string>
+    <string name="FinicioTortilla">Eliga la tortilla</string>
+    <string name="FInicioBebida">Eliga su bebida</string>
+
+    <string name="familiar">Familiar - 6.00€</string>
+    <string name="individual">Individual - 3.50€</string>
+    <string name="tamano">Tamaño:</string>
+    <string name="cant">Cantidad</string>
+    <string name="total">Total tortilla:</string>
+    <string name="tipoh">Tipo de huevo:</string>
+    <string name="campero">Campero - 1.40€</string>
+    <string name="ecologico">Ecologico - 2.25€ </string>
+    <string name="granja">Granja - 0.80€</string>
+
+    <string name="cola">Cola -  1.95€</string>
+    <string name="limon">Limon - 1.90€</string>
+    <string name="naranja">Naranja - 1.90€</string>
+    <string name="nestea">Nestea - 1.50€</string>
+    <string name="cerveza">Cerveza - 1.65€</string>
+    <string name="agua">Agua - 1.00€</string>
+
+</resources>
