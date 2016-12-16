@@ -8,6 +8,8 @@
     <string name="FInicioDatos">Introduzca sus datos</string>
     <string name="FinicioTortilla">Eliga la tortilla</string>
     <string name="FInicioBebida">Eliga su bebida</string>
+    <string name="añadir">Añadir tortilla</string>
+
 
     <string name="familiar">Familiar - 6.00€</string>
     <string name="individual">Individual - 3.50€</string>

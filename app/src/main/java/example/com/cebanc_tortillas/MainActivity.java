@@ -42,9 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
                 } else {
                     if(telefono.getText().toString().length()<9) {
-                        Toast toast2 =Toast.makeText(getApplicationContext(),"Introduzca un numero correcto", Toast.LENGTH_SHORT);
-                        toast2.show();
-
+                        telefono.setError("Introduzca un numero correcto");
                     }
                     else{
                         lanzar(null);
