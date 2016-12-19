@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         bSalir.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 finish();
+                System.exit(0);
             }
         });
         bSiguiente.setOnClickListener(new View.OnClickListener() {

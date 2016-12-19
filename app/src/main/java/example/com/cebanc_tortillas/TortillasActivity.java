@@ -77,6 +77,7 @@ public class TortillasActivity extends AppCompatActivity {
             public void onClick(View view) {
                 finish();
 
+                System.exit(0);
             }
         });
         cmbOpciones.setOnItemSelectedListener(

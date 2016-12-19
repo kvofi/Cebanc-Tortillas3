@@ -35,8 +35,7 @@ public class BebidasActivity extends AppCompatActivity {
         });
         bSiguiente.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                Toast toast1 =Toast.makeText(getApplicationContext(),datos[3]+"€", Toast.LENGTH_SHORT);
-                toast1.show();
+
             }
         });
 
